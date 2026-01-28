@@ -1,0 +1,143 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 47px 0 178px 47px;
+}
+
+.link-header {
+  padding-right: 32px;
+  color: #17233d;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+button {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #6fbf44;
+  width: 124px;
+  height: 51px;
+  border: none;
+}
+
+main {
+  display: flex;
+}
+
+section{
+  margin-top: 100px;
+}
+
+p {
+  color: #4b505a;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  width: 493px;
+  margin-top: 47px;
+  margin-bottom: 55px;
+}
+
+img {
+  margin-left: 121px;
+  margin-right: 97px;
+}
+
+h1 {
+  color: #161a49;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82px;
+  width: 582px;
+}
+
+.link-button {
+  color: #6fbf44;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 750px) {
+
+  .link-header{
+    display: none;
+  }
+
+  button{
+     position: relative;
+    left: 250px;
+    top: -20px;
+    width: 91px;
+    height: 31px;
+    flex-shrink: 0;
+  }
+
+  main{
+    display: block;
+  }
+
+  img{
+   position: absolute;
+   margin: 300px 50px  39px;
+   height: auto;
+   max-width: 90%;
+  }
+
+  section{
+    position: relative;
+    bottom: 120px;
+    left: 60px;
+  }
+
+  h1{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.596px;
+    width: 278px;
+    text-align: center;
+    margin: 131px 71px 41px 0;
+  }
+
+  p{
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    width: 300px;
+    text-align: center;
+  }
+
+  .link-button{
+    margin: 0 auto;
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 155px ;
+    position: absolute;
+    left: 95px;
+  }
+
+
+
+  }
